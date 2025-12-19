@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-content">
-          <Link to="/" className="navbar-logo">Your Name</Link>
+          <Link to="/" className="navbar-logo">TO</Link>
           <ul className="navbar-menu">
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
