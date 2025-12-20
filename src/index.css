@@ -206,6 +206,7 @@ a:hover { color: var(--color-brand-hover); }
 .hero-cta {
   display: flex;
   gap: 1rem;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
