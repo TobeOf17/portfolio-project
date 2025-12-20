@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import ProjectDetail from './pages/ProjectDetail';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         </header>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Project details route */}
+          <Route path="/project/folio" element={<ProjectDetail />} />
         </Routes>
       </div>
     </Router>
