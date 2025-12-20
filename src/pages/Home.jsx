@@ -1,4 +1,5 @@
 import SunIcon from '../components/SunIcon';
+import ProjectCard from '../components/ProjectCard';
 
 function Home() {
   return (
@@ -50,35 +51,21 @@ function Home() {
         <div className="container">
           <h2>My Projects</h2>
           <div className="projects-grid">
-            <div className="project-card">
-              <h3>Project Name</h3>
-              <p>Project description goes here</p>
-              <div className="project-tech">
-                <span className="tech-tag">React</span>
-                <span className="tech-tag">CSS</span>
-              </div>
-              <a href="#" className="project-link">View Details →</a>
-            </div>
+            <ProjectCard 
+              title="Currency Quotes API"
+              description="A REST API built with Java Spring Boot that converts various currency pairs to Nigerian Naira with real-time exchange rates. Demonstrates CI/CD principles and modern API development practices."
+              image="/currency-api.jpg"
+              techStack={["Java", "Spring Boot", "REST API", "CI/CD"]}
+              link="https://github.com/TobeOf17/currency-quotes-api"
+            />
             
-            <div className="project-card">
-              <h3>Project Name</h3>
-              <p>Project description goes here</p>
-              <div className="project-tech">
-                <span className="tech-tag">JavaScript</span>
-                <span className="tech-tag">HTML</span>
-              </div>
-              <a href="#" className="project-link">View Details →</a>
-            </div>
-            
-            <div className="project-card">
-              <h3>Project Name</h3>
-              <p>Project description goes here</p>
-              <div className="project-tech">
-                <span className="tech-tag">React</span>
-                <span className="tech-tag">API</span>
-              </div>
-              <a href="#" className="project-link">View Details →</a>
-            </div>
+            <ProjectCard 
+              title="Folio"
+              description="A comprehensive full-stack employee and shift management system built with Java Spring Boot. Features include employee tracking, shift scheduling, and administrative dashboard."
+              image="/folio.jpg"
+              techStack={["Java", "Spring Boot", "Full Stack", "MySQL"]}
+              detailPage="folio"
+            />
           </div>
         </div>
       </section>
