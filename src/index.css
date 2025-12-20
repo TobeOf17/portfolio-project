@@ -345,9 +345,10 @@ a:hover { color: var(--color-brand-hover); }
   .project-section-reverse .project-text { order: 1; }
   .project-section-reverse .project-image-container { order: 2; }
   .features-grid { grid-template-columns: 1fr; }
-  .features-grid-full { grid-template-columns: 1fr; }
+  .features-grid-full { grid-template-columns: 1fr !important; }
   .tech-section { grid-template-columns: 1fr; }
   .tech-section-dark { padding: 3rem 1rem; }
+  .feature-card { margin-bottom: 1rem; }
 }
 
 /* Project Detail Page */
