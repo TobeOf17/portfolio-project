@@ -359,14 +359,14 @@ a:hover { color: var(--color-brand-hover); }
 .back-link {
   display: inline-flex;
   align-items: center;
-  color: var(--color-text-secondary);
-  font-weight: 500;
+  color: var(--color-brand);
+  font-weight: 600;
   margin-bottom: 2rem;
   transition: color var(--transition-fast);
 }
 
 .back-link:hover {
-  color: var(--color-brand);
+  color: var(--color-brand-hover);
 }
 
 .project-header {

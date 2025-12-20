@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import ProjectOverview from '../components/ProjectOverview';
 import ProjectProblem from '../components/ProjectProblem';
 import ProjectFeatures from '../components/ProjectFeatures';
@@ -7,6 +8,10 @@ import ProjectLearnings from '../components/ProjectLearnings';
 import Footer from '../components/Footer';
 
 function ProjectDetail() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main className="project-detail">
       <div className="container">
@@ -30,7 +35,7 @@ function ProjectDetail() {
         <ProjectLearnings />
 
         <div className="project-footer">
-          <a href="https://github.com/TobeOf17/folio" target="_blank" rel="noopener noreferrer" className="btn">
+          <a href="https://github.com/yourusername/folio" target="_blank" rel="noopener noreferrer" className="btn">
             View on GitHub →
           </a>
         </div>
