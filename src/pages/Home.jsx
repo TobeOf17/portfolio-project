@@ -38,7 +38,7 @@ function Home() {
         </div>
       </section>
 
-      <section id="projects" className="section" style={{ backgroundColor: '#fafafa' }}>
+      <section id="projects" className="section projects-section">
         <div className="container">
           <h2>My Projects</h2>
           <div className="projects-grid">
@@ -85,8 +85,11 @@ function Home() {
             </p>
             <div className="contact-cta">
               <a href="mailto:ofilitobe@gmail.com" className="btn">Send Email</a>
-              <a href="https://wa.me/2349067051794" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/2349067051794" className="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
                 WhatsApp
+              </a>
+              <a href="https://linkedin.com/in/tobechukwu-ofili" className="btn btn-linkedin" target="_blank" rel="noopener noreferrer">
+                LinkedIn
               </a>
             </div>
           </div>
