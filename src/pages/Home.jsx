@@ -1,22 +1,30 @@
+import SunIcon from '../components/SunIcon';
+
 function Home() {
   return (
     <main>
       <section className="hero">
         <div className="container">
           <div className="hero-content">
-            <h1>Hi, I'm <span className="text-brand">Tobechukwu Ofili</span></h1>
-            <p className="hero-subtitle">
-              A passionate developer building modern web applications
-            </p>
-            <div className="hero-cta">
-              <a href="#projects" className="btn">View My Work</a>
-              <a href="#contact" className="btn btn-outline">Get In Touch</a>
+            <img src="/passport.jpg" alt="Tobechukwu Ofili" className="hero-image" />
+            <div className="hero-text">
+              <div className="hero-title-wrapper">
+                <h1>Hi, I'm <span className="text-brand">Tobechukwu Ofili</span></h1>
+                <SunIcon />
+              </div>
+              <p className="hero-subtitle">
+                A passionate developer building modern web applications
+              </p>
+              <div className="hero-cta">
+                <a href="#projects" className="btn">View My Work</a>
+                <a href="#contact" className="btn btn-outline">Get In Touch</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="about" className="section">
+      <section id="about" className="section about-section">
         <div className="container">
           <h2>About Me</h2>
           <div className="about-content">
