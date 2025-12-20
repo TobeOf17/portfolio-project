@@ -6,7 +6,7 @@ function Hero() {
       <div className="container">
         <div className="hero-content">
           <img
-            src="/passport.jpg"
+            src="/passport.JPG"
             alt="Tobechukwu Ofili"
             className="hero-image"
           />
