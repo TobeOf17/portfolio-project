@@ -35,7 +35,7 @@ function ProjectDetail() {
         <ProjectLearnings />
 
         <div className="project-footer">
-          <a href="https://github.com/yourusername/folio" target="_blank" rel="noopener noreferrer" className="btn">
+          <a href="https://github.com/TobeOf17/Folio" target="_blank" rel="noopener noreferrer" className="btn">
             View on GitHub →
           </a>
         </div>
