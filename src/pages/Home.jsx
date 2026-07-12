@@ -32,7 +32,7 @@ function Home() {
                         <ProjectCard
                             title="Currency Quotes API"
                             description="A REST API built with Java Spring Boot that converts various currency pairs to Nigerian Naira with real-time exchange rates. Demonstrates CI/CD principles and modern API development practices."
-                            image="/currency-api.jpg"
+                            image="/currency-api.png"
                             techStack={["Java", "Spring Boot", "REST API", "CI/CD"]}
                             link="https://github.com/TobeOf17/currency-quotes-api"
                         />
