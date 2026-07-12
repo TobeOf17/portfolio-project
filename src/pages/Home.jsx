@@ -26,6 +26,7 @@ function Home() {
                             image="/whyfi.png"
                             techStack={["Spring Boot", "React", "Java 21"]}
                             link="https://whyfi-frontend-two.vercel.app"
+                            linkText="WhyFi →"
                         />
 
                         <ProjectCard
