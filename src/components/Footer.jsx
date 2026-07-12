@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; 2024 Tobechukwu Fredrick Ofili.</p>
+        <p>&copy; 2026 Tobechukwu Fredrick Ofili.</p>
       </div>
     </footer>
   );
